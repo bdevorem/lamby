@@ -4,5 +4,8 @@ Lamby
 A Lambda Calculus interpreter, written in Python.
 
 TO DO:
-- [] everything
+- intepreter shell
+- lexer
+- beta reduction
+- parser
 
