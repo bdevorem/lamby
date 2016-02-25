@@ -5,7 +5,7 @@ A Lambda Calculus interpreter, written in Python.
 
 TO DO:
 - [x] intepreter shell
-- [ ] lexer
+- [x] lexer
 - [ ] beta reduction
-- [ ] parser
+- [x] parser
 
