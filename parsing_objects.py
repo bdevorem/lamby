@@ -31,6 +31,10 @@ class Application (object):
 		self._second = second
 
 	def __str__ (self):
+		#if isinstance(self._second, Abstraction):
+		#	if self._second._identity is True:
+		#		return str(self._first)
+	
 		return str (self._first) + str (self._second)
 
 	def __eq__ (self, other):
@@ -46,14 +50,23 @@ class Application (object):
 			return False
 		elif isinstance(self._first,Application) :
 			return self._first.normalform()
-		else :
+		else:
 			return True
 
 class Abstraction (object):
 	def __init__ (self, variable, body):
 		self._variable = variable
 		self._body = body
-
+		
+		if self._variable == self._body:
+			self._identity = True
+		else:
+			self._identity = False
+			
+		if isinstance(self._body, Abstraction):
+			if self._body._identity is True:
+				pass
+				
 	def __str__ (self):
 		return '(\\' + str(self._variable) + '.' + str(self._body) + ')'
 

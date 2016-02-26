@@ -1,9 +1,17 @@
 Lamby 
 =====
 
-A Lambda Calculus interpreter, written in Python.
+A Lambda Calculus reducer, written in Python.  
+Shorthand is not supported.  
+Future work: turn the reducer into an interpreter, 
+supporting numbers and arithmetic.  
 
 ##Usage
+###Semantics:
+	lambda == \  
+	variables == a-z or 0-9  
+	lambda abstraction == \ variable . body  
+	
 ###To start the interpreter:
 	python lamby.py
 ###To interpret an expression:
