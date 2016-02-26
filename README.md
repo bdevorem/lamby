@@ -14,7 +14,7 @@ supporting numbers and arithmetic.
 	
 ###To start the interpreter:
 	python lamby.py
-###To interpret an expression:
+###To reduce an expression:
 	[expression] + ENTER
 ###To quit:
 	exit
