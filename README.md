@@ -34,10 +34,19 @@ Reduced expression -> aba
 \> exit  
 >$  
 
-TO DO:
+##To Do
 - [x] intepreter shell
 - [x] lexer
 - [x] beta reduction
 - [x] parser
 - [ ] primitive functionality
 - [ ] arithmetic functionality
+
+##Sources
+http://www.itu.dk/people/sestoft/lamreduce/
+http://www.dabeaz.com/ply/ply.html#ply_nn22
+http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf
+http://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html
+https://en.wikipedia.org/wiki/Lambda_calculus
+http://www.cs.yale.edu/homes/hudak/CS201S08/lambda.pdf
+
