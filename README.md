@@ -5,6 +5,7 @@ A Lambda Calculus reducer, written in Python.
 Shorthand is not supported.  
 Future work: turn the reducer into an interpreter, 
 supporting numbers and arithmetic.  
+Python 2.7.6 required  
 
 ##Usage
 ###Semantics:
