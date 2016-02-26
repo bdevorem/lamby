@@ -3,15 +3,15 @@ Lamby
 
 A Lambda Calculus interpreter, written in Python.
 
-###Usage
-#To start the interpreter:
+##Usage
+###To start the interpreter:
 	python lamby.py
-#To interpret an expression:
+###To interpret an expression:
 	[expression] + ENTER
-#To quit:
+###To quit:
 	exit
 
-###Examples
+##Examples
 $ python lamby.py
 Welcome to Lamby!
 Type 'exit' to exit.
