@@ -11,7 +11,7 @@ import ply.yacc as yacc
 from lexer import *
 from parser import *
 
-from algorithms import multi_step_beta_reduce
+from b_reduction import beta_reduce
 
 if __name__ == "__main__":
 	lexer = lex.lex()
@@ -23,8 +23,10 @@ if __name__ == "__main__":
 		s = raw_input('> ')
 		if s == 'exit':
 			sys.exit(0)
-       
-		term = parser.parse(s)
-		
-		print term
+		elif s == '':
+			pass
+		else:
+			term = parser.parse(s)
+			reduced_term = beta_reduce(term)
+			print 'Reduced expression -> ' + str(reduced_term)
        

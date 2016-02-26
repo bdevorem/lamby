@@ -22,8 +22,10 @@ literals = ['\\', '(', ')', '.']
 
 # Regular expression rules for simple tokens
 # parens are unnecessary
-t_VARIABLE = r'[a-z]'
+t_VARIABLE = r'[a-z0-9]'
 t_BACKSLASH = r'\\'
+#t_LPAREN = r'('
+#t_RPAREN = r')'
 
 # Error handling rule, straight from documentation
 def t_error(t):

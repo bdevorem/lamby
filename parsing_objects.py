@@ -14,16 +14,16 @@ class Variable (object):
 	def __str__ (self):
 			return str(self._name)
 
-		def __eq__ (self, other):
+	def __eq__ (self, other):
 		# two variables are the same if they are the same character
-			if isinstance (other, Variable):
-				if other._name == self._name:
-					return True
-			return False
+		if isinstance (other, Variable):
+			if other._name == self._name:
+				return True
+		return False
         
-		def normalform(self):
+	def normalform(self):
 		# one of the rules of Lambda Calc
-			return True
+		return True
 
 class Application (object):
 	def __init__ (self, first, second):
