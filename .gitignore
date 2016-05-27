@@ -2,3 +2,5 @@
 staticfiles
 *~
 *_.py
+*.out
+*tab.py
