@@ -4,6 +4,9 @@
 
 import sys
 
+# import GNU readline library to greatly improve raw_input() prompt
+import readline
+
 # directions from PLY package
 import ply.lex as lex
 import ply.yacc as yacc
